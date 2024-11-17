@@ -1,0 +1,30 @@
+.form-control{
+    border: 1px solid #00000052;
+    border-radius: 0;
+    
+    padding: 10px 15px;
+    color: #dddde7;
+    &::placeholder{
+        color: rgba(128, 128, 128, 0.418) !important;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+}
+
+.form-input{
+    height: 50px;
+}
+
+.formbtn{
+    border-radius: 0;
+    width: 220px;
+    text-align: center;
+    justify-content: center;
+    background-color: #000;
+    transition: all 0.5s ease;
+    color: #fff;
+    &:hover{
+        background-color: #dddde7;
+        color: #000;
+    }
+}

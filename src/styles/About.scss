@@ -1,0 +1,121 @@
+.about-us-2{
+    margin-top: 40px;
+}
+
+.about-mission{
+    border: 1px solid #dddde7;
+    padding: 30px;
+    box-shadow:inset 0px 0px 10px #dddde7;
+    height: 100%;
+}
+
+.why-choose{
+    border: 1px solid #ffffff;
+    padding: 30px;
+    box-shadow:inset 0px 0px 10px #ffffff;
+    height: 100%;
+}
+
+.extra-data {
+    ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        justify-content: space-between;
+        li{
+            padding: 10px 0px;
+            width: 50%;
+        }
+    }
+}
+
+.journey-data{
+    background: url(../assets/journey.jpg) no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.5); 
+background-blend-mode: overlay; 
+.why-choose{
+    background-color: #00000094;
+}
+    h2{
+        color: #ffffff;
+    }
+    p{
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+    ul {
+        margin-top: 15px;
+        li{
+            color: #ffffff;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 991px){    
+    .extra-data ul{
+        width: 90%;
+    }
+    .navbar-toggler{
+        padding: 0;
+        border: 0;
+        outline: none;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: unset;
+    }
+    body{
+        padding-top: 70px;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        .header .menuIcon ul{
+            margin: 0;
+            margin-top: 12px;
+            align-items: flex-start;
+            li{
+                margin-left: 0;
+                a{
+                    padding: 8px 0px;
+                }
+            }
+        }
+    }
+  }
+
+
+  @media only screen and (max-width: 767px){    
+    .about-2{
+        text-align: center;
+    }
+    .extra-data{
+        text-align: center;
+        .col-md-6:nth-child(2){
+            margin-top: 24px;
+        }
+        .col-md-12{
+            margin-top: 24px !important;
+        }
+
+        ul{
+            width: 100%;
+            padding-left: 10px;
+            li{
+                width: 100%;
+            }
+        }
+    }
+  }
+
+  
+
+
